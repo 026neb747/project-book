@@ -11,7 +11,7 @@ form{
     align-items: center;
     justify-content: center;
 
-    width: 0.65vw;
+    min-width: 65vw;
 
     background-color:coral;
 }
