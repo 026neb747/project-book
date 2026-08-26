@@ -8,39 +8,38 @@
 </head>
 <body>
     <header></header>
-    <main>
+
+    <form method="Post">
         <div class="title">
             <h1>LOGIN</h1>
         </div>
+        <div>
+            <input type="text" name="username" id="textbox" required placeholder="Username" maxlength="15" minlength="8">
+        </div>
 
-        <form method="Post">
-            <div>
-                <input type="text" name="username" id="textbox" required placeholder="Username" maxlength="15" minlength="8">
-            </div>
+        <div>
+            <input type="password" name="password" id="password" required placeholder="Password" maxlength="15" minlength="8">
+        </div>
 
+        <div>
             <div>
-                <input type="password" name="password" id="password" required placeholder="Password" maxlength="15" minlength="8">
+                <input type="checkbox" name="rem_me?" id="rem_me?">
+                <label for="rem_me?">Remember me?</label>
             </div>
+            <div>
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
 
-            <div>
-                <div>
-                    <input type="checkbox" name="rem_me?" id="rem_me?">
-                    <label for="rem_me?">Remember me?</label>
-                </div>
-                <div>
-                    <a href="#">Forgot Password?</a>
-                </div>
-            </div>
+        <div>
+            <button type="submit">LOGIN</button>
+        </div>
+        
+        <div>
+            <p>Don't have an account yet? <a href="#">Register name</a></p>
+        </div>
 
-            <div>
-                <button type="submit">LOGIN</button>
-            </div>
-            
-            <div>
-                <p>Don't have an account yet? <a href="#">Register name</a></p>
-            </div>
-
-        </form>
-    </main>
+    </form>
+    
 </body>
 </html>
